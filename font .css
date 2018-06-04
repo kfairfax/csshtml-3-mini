@@ -1,0 +1,28 @@
+
+/* this is our mobile styling */
+h1{
+    font-size: 50px;
+}
+
+.m_box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+/* this is our tablet styling */
+/* @media(min-width:500px){
+    .m-box{
+        width: 400px;
+        background-color: red;
+    }
+} */
+
+/* this is our desktop styling */
+/* @media(min-width: 800px){
+    h1{
+        font-size: 150px;
+    }
+} */
+
+/* media queries always go at the bottom of the css file because cascading styles still apply, and the most recent style(the bottom one) will determine the style on the page */
